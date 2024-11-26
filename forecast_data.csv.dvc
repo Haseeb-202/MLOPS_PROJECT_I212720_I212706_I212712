@@ -1,0 +1,5 @@
+outs:
+- md5: 71cab27185bb35e14eb4749b964df53a
+  size: 1932
+  hash: md5
+  path: forecast_data.csv
