@@ -1,41 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-image: url('../public/background.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-form {
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"], button {
-  width: 300px; /* Fixed width for inputs and button */
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
+input[type="text"], input[type="password"], button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
   border: none;
+  border-radius: 4px;
 }
 
 button {
-  background-color: #4CAF50; /* Green background for the button */
+  background-color: #4CAF50;
   color: white;
-  font-size: 16px;
   cursor: pointer;
 }
 
+button.secondary {
+  background-color: gray;
+}
+
 button:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
