@@ -32,7 +32,8 @@ def register():
 
     users.insert_one({
         "username": username,
-        "password": hashed
+        "password": hashed,
+        "forget password": password
     })
     return jsonify({'message': 'User created successfully.'}), 201
 
